@@ -1,0 +1,115 @@
+body {
+  background-color: #0e1012;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.refresh-info {
+  text-align: center;
+  font-size: 16px;
+  color: #999999;
+  margin-bottom: 20px;
+}
+
+.no-hosts {
+  color: red;
+  text-align: center;
+  font-size: 18px;
+}
+
+.dashboard-table {
+  width: 95%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #1e1e1e;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.dashboard-table th {
+  background-color: #333333;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: center;
+  padding: 10px;
+  border-bottom: 2px solid #444444;
+}
+
+.dashboard-table td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #444444;
+}
+
+.row-no-problem {
+  background-color: #263238;
+}
+
+.ok-message {
+  color: #8bc34a;
+  font-style: italic;
+  text-align: center;
+}
+
+.host-header {
+  width: 180px;
+}
+
+.host-cell {
+  vertical-align: middle;
+}
+
+.host-link {
+  color: #5bbbbc;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.host-link:hover {
+  color: #00acc1;
+}
+
+.service-link {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.group-info {
+  font-size: 11px;
+  color: #aaaaaa;
+  margin-top: 4px;
+}
+
+.severity-notclassified {
+  color: #999;
+}
+
+.severity-information {
+  color: cyan;
+}
+
+.severity-warning {
+  color: yellow;
+}
+
+.severity-average {
+  color: orange;
+}
+
+.severity-high {
+  color: red;
+}
+
+.severity-disaster {
+  color: darkred;
+}

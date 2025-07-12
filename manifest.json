@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2.0,
+    "id": "NagiosView",
+    "name": "1Nagios Simple View",
+    "version": "1.0",
+    "namespace": "NagiosView",
+    "description": "Show active problems like nagios.",
+	"url": "https://github.com/maavcrusoe/zabbix-nagios-view/",
+    "author": "MAAV",
+    "actions": {
+        "nagios.view": {
+            "class": "NagiosAction",
+            "view": "view"
+        }
+    }
+}
+
