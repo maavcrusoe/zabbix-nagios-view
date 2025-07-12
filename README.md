@@ -16,6 +16,8 @@ A lightweight Zabbix module that displays active problems in a Nagios-style inte
 ✔ **Mobile-friendly** responsive design  
 
 ## 🖥 Screenshot
+<img width="266" height="280" alt="image" src="https://github.com/user-attachments/assets/afff2947-cf20-4b91-beae-60086b09741e" />
+
 <img width="1574" height="434" alt="image" src="https://github.com/user-attachments/assets/71e690da-ef3e-4038-a927-9c2ae7da2064" />
 
 
@@ -63,6 +65,8 @@ NagiosView/
 ```
 
 ## 🌟 Use Case Example
+<img width="714" height="35" alt="image" src="https://github.com/user-attachments/assets/e0854d91-92ac-4ee1-ae0a-22b1cb571919" />
+
 ```bash
 # Monitor specific host groups by setting global macro:
 # {$GROUPIDS} = "123,456" (groupids from Zabbix)
