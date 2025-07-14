@@ -91,6 +91,11 @@ class NagiosAction extends CController {
                 continue;
             }
 
+            // Ordenar triggers por lastchange descendente
+            usort($triggers, function ($a, $b) {
+                return $b['lastchange'] <=> $a['lastchange'];
+            });
+
             // Check graphs
             $graphs = $this->zabbixApiRequest($apiUrl, $apiToken, 'graph.get', [
                 'output' => ['graphid', 'name'],
